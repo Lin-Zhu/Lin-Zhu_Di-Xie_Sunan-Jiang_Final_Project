@@ -1,0 +1,56 @@
+@charset "utf-8";
+.box {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	position: relative;
+	width: 70%;
+	left: 15%;
+	top: 55px;
+	background-color: #E5E4ED;
+}
+.box .photo {
+	position: relative;
+	height: 200px;
+	width: 200px;
+	left: 41.5%;
+	top: 0px;
+	overflow: hidden;
+}
+.box .name {
+	text-align: left;
+	font-weight: bold;
+	font-size: 16px;
+	width: 600px;
+	left: 20%;
+	position: relative;
+	top: -20;
+}
+.box.NickNameTag {
+	position: relative;
+	width: 50px;
+}
+.box .modal-content .modal-header {
+	font-size: 18px;
+	padding: 5px;
+}
+.basicInfo {
+	font-size: 18px;
+	background-color: #FFF;
+	border: 2px;
+}
+.box .modal-dialog {
+	font-size: 18px;
+	text-align: center;
+}
+.box .BasicInfo .InfoList .NickName {
+	font-size: 12px;
+	width: 900px;
+	position: relative;
+	left: 100px;
+}
+.box .basicInfo .InfoList form span .gender {
+	border: 2px;
+	font-family: 'Comic Sans MS', cursive;
+	font-size: 18px;
+}

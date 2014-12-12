@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>League of Legends</title>
+<link href = "css/bootstrap.min.css" rel ="stylesheet">
+<link href = "css/bootstrap-theme.min.css" rel ="stylesheet">
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style media="screen" type="text/css">
+.navbar-inverse { background-color: #305BA6}
+.navbar-inverse .navbar-nav>.active>a:hover,.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { background-color: #1B345E}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { background-color: #1B345E}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #428BCA}
+.navbar-inverse { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-inverse { border-color: #305BA6}
+.navbar-inverse .navbar-brand { color: #999999}
+.navbar-inverse .navbar-brand:hover { color: #FFFFFF}
+.navbar-inverse .navbar-nav>li>a { color: #999999}
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a,.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:hover, .navbar-inverse .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus { color: #FFFFFF}
+.dropdown-menu>li>a { color: #333333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-inverse .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-inverse .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
+
+.hsonuc {
+    position: fixed;
+    bottom: 220px;
+    right:120px;
+    width: 200px;
+	height: 80px;
+}
+
+.width1 {
+	position: relative;
+  	min-height: 50px;
+  	margin-bottom: 20px;
+  	
+}
+
+.position1 {
+	position: relative;
+    top: -10px;
+    right:-33.8%;
+    width: 38.5%; 
+}
+
+.position3 {
+	position: relative;
+    bottom: -80px; 
+}
+
+.logo {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 35px;
+}
+
+</style>
+
+</head>
+<body>
+
+	<div class = "navbar navbar-inverse navbar-static-top width1">
+		<div class = "container">
+		<div class="navbar-header">
+		
+			<a href = "http://na.leagueoflegends.com/" class = "navbar-brand logo">League of Legends</a>
+			
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse" aria-expanded="false" aria-controls="navbar">
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+				<span class = "icon-bar"></span>
+			</button>
+			
+		</div>				
+		<div class = "collapse navbar-collapse navHeaderCollapse">
+			<ul class = "nav navbar-nav position1">
+					<form class="row" action="/Project/loginAction1" method="post">
+  						<div class="col-sm-5">
+  							<br>
+  							<font color="white"><label>  Email: </label></font>
+    						<input name="username" type="text" class="form-control" placeholder="Email">
+  						</div>
+  						<div class="col-sm-5">
+  							<br>
+  							<font color="white"><label>  Password: </label></font>
+    						<input name="password" type="password" class="form-control" placeholder="Password">
+  						</div>
+  				
+  						<div class="col-sm-2">
+  							<br>
+  							<label><br></label>
+    						<button class = "btn btn-primary" type = "submit"><b>Log In</b></button>
+    						<br>
+  						</div>
+					</form>	
+			</ul>
+		</div>
+		</div>
+	</div>
+	
+	<div class = "container">
+		<div class = "row">
+			<div class = "col-md-6">
+				<h3><a href = "#">Patch 4.20 notes</a></h3>
+				<p> The big theme of the 2015 preseason (and boy will you hear this a lot) is Strategic Diversity. That sounds like a vague concept (does anyone remember "End-game Fantasy" from the 2014 preseason?), but our high-level philosophy is we want to offer you more paths to victory so that your in-game decisions matter just as much as the champions you pick. In previous years, we've lacked the proper systems and levers to balance different strategies against each other, so when teams would discover unique ways to win, we'd either have to watch Ziggs bomb the stuffing out of people in stall / poke compositions, or we'd just have to tackle the manic yordle on a personal level. This year, rather than trying to 'fix' tactical problems from the previous season, we're instead introducing a metric tonne of changes to map-wide objectives, a complete rehaul of the jungle and jungle itemization, and a number of strategic item additions / modifications. With these new paths in place, how you strive for victory will vary with each individual game and our hope is that all of this adds up to more far more strategic diversity and experimentation in League. </p>
+				<a href = "http://na.leagueoflegends.com/en/news/game-updates/patch/patch-420-notes" class = "btn btn-default">Read More</a>
+			</div>	
+				
+			<div class = "col-md-1">
+			</div>	
+			<div class = "col-md-5">
+      			<form id = "sign-in" class="form-signin" role="form" action="/Project/loginAction1" method="post">
+       		 		<h2 class="form-signin-heading" >Register</h2>
+        			<label for="inputEmail">Email address</label>
+       	 			<input type="email" name="inputEmail" class="form-control" placeholder="Email address" required autofocus> <br>
+       	 			<label for="inputEmail">Summoner Name</label>
+       	 			<input name="inputSummoner" class="form-control" placeholder="Summoner Name" required autofocus> <br>
+        			
+        			<div class = "row">
+        			<div class = "col-md-6">
+        			<label class = "control-label">First Name: </label>
+        			<input name = "firstName" class="form-control" placeholder="First Name" required autofocus> <br>
+        			</div>
+        			<div class = "col-md-6">
+        			<label class = "control-label">Last Name: </label>
+        			<input name = "lastName" class="form-control" placeholder="Last Name" required autofocus> <br>
+        			</div>
+        			</div>
+        			<label for="inputPassword">Password</label>
+        			<input id="passwd" type="password" name="inputPassword" class="form-control" placeholder="Password" required>
+        			<br>
+        			<label for="inputPassword">Re-enter Password</label>
+        			<input id="conpasswd" type="password" name="inputRePassword" class="form-control" placeholder="Password" required>
+        			<br>
+        			<button name="action" value="create" class="btn btn-md btn-success btn-block" type="submit">Sign Up</button>
+      			</form>
+	
+			</div>	
+		
+		</div>
+	</div>
+			
+	
+	<div class = "position3 navbar navbar-default navbar-static-bottom">
+	
+		<div class= "container">
+			<p class = "navbar-text pull-left">Site Built By Lin Zhu</p>
+			<a href = "http://na.leagueoflegends.com/" class = "navbar-btn btn-sm btn-primary btn pull-right">League of Legends</a>	
+		</div>
+	
+	</div>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
